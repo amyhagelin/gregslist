@@ -1,0 +1,74 @@
+body {
+	font: sans-serif;
+}
+
+.container {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+nav {
+	height: 50px;
+	background-color: lightgrey;
+	position: fixed;
+	width: 100%;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	font: sans-serif;
+}
+
+nav li.right {
+	text-align: right;
+}
+
+main {
+	padding-top: 90px;
+  	min-width: 1000px;
+  	margin-left: 150px;
+}
+
+input {
+	font-size: 20px;
+}
+button {
+	background-color: white;
+}
+
+button img {
+	width: 20px;
+}
+
+.page > div {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+	border: 1px lightgrey solid;
+}
+
+.listing > div {
+	margin-bottom: 10px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.date .location {
+	color: lightgrey;
+}
+
+.title {
+	font: bold blue;
+}
+
+
+
+
+
+
+

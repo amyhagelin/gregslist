@@ -1,69 +1,112 @@
 body {
-	font: sans-serif;
+	font-family: sans-serif;
+	margin: 0;
 }
 
 .container {
-	padding-left: 40px;
-	padding-right: 40px;
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+}
+
+.brand {
+	margin: 0;
+	width: 30%;
+	float: left;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #555;
+	/*vertical-align: middle;*/
 }
 
 nav {
-	height: 50px;
+	height: 40px;
 	background-color: lightgrey;
-	position: fixed;
-	width: 100%;
+	/*position: fixed;*/
+	/*width: 100%;*/
 }
 
 nav ul {
 	display: inline-block;
 	list-style: none;
+	float: right;
+	padding-right: 10px;
+	font-size: 14px;
 }
 
 nav li {
 	display: inline-block;
-	font: sans-serif;
-}
-
-nav li.right {
-	text-align: right;
+	vertical-align: middle;
 }
 
 main {
-	padding-top: 90px;
-  	min-width: 1000px;
-  	margin-left: 150px;
+	/*padding-top: 90px;*/
+  	/*min-width: 1000px;*/
+  	/*margin-left: 150px;*/
+  	padding: 20px;
 }
 
-input {
-	font-size: 20px;
+input[type='text'] {
+	font-size: 14px;
+	padding: 5px;
+	width: 40%;
+	margin: 0 5px;
+	float: left;
 }
+
 button {
 	background-color: white;
+	border: solid #aaa 1px;
+	padding-top: 4px;
+	float: left;
 }
 
 button img {
 	width: 20px;
 }
 
-.page > div {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	display: inline-block;
-	border: 1px lightgrey solid;
+.page, .listing {
+	float: left;
+	display: block;
+	width: 100%;
+	padding: 10px;
 }
 
-.listing > div {
+.page > div {
+	display: inline-block;
+	border: 1px lightgrey solid;
+	margin: 0;
+	padding: 5px;
+	float: left;
+	background-color: #efefef;
+}
+
+.listing {
+	list-style: none;
+}
+
+.listing li > div {
 	margin-bottom: 10px;
 	display: inline-block;
 	margin-right: 5px;
 }
 
-.date .location {
-	color: lightgrey;
+.date {
+	width: 10%;
+}
+
+.location {
+	width: 20%;
+}
+
+.date, .location {
+	color: grey;
 }
 
 .title {
-	font: bold blue;
+	color: blue;
+	font-weight: bold;
+	width: 50%;
 }
 
 
